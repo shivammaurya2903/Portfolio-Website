@@ -8,21 +8,40 @@
   
 </head>
 <body>
+  <!-- main page -->
   <header>
     <nav class="navbar">
       <div class="logo"> शिवम् मौर्य</div>
       <button id="toggle-mode" class="toggle-btn">🌙</button>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <!-- <a href="#" class="hire-btn">Hire Me</a> -->
     </nav>
   </header>
+  <a href="#skills" class="scroll-down">↓</a>
 
-  <main class="section">
+  <!-- home section -->
+   <section id="home" class="home-section">
+  <div class="home-content">
+    <h1 class="motivational-quote">“The only limit to your impact is your imagination and commitment.”</h1>
+    <h2 class="name-highlight">I'm <strong>Shivam Maurya</strong></h2>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/shivammaurya_2903/" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/shivam-maurya-2a3a24347/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/shivammaurya2903" target="_blank">GitHub</a>
+      <a href="https://www.codechef.com/users/huge_mirage_98" target="_blank">CodeChef</a>
+      <a href="https://www.hackerrank.com/profile/shivammaurya2903" target="_blank">HackerRank</a>
+    </div>
+  </div>
+</section>
+
+<!-- about section -->
+  <main id="about" class="section">
     <div class="text">
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/shivam-maurya-2a3a24347/"><img src="images/linkdin-logo1.jpg" alt="LinkedIn" /></a>
@@ -43,6 +62,68 @@
       <img src="images/IMG_E6995-removebg-preview.png" alt="Shivam Maurya" />
     </div>
   </main>
+  <!-- skills section  -->
+  <section id="skills" class="skills-section">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>C</h3>
+      <p>Problem-solving with efficient code structure.</p>
+    </div>
+    <div class="skill-card">
+      <h3>C++</h3>
+      <p>Strong grasp of OOP, STL, and problem-solving with efficient code structure.</p>
+    </div>
+    <div class="skill-card">
+      <h3>HTML</h3>
+      <p>Semantic markup and clean structure for accessible, responsive layouts.</p>
+    </div>
+    <div class="skill-card">
+      <h3>CSS</h3>
+      <p>Modern styling with Flexbox, Grid, animations, and responsive design.</p>
+    </div>
+    <div class="skill-card">
+      <h3>JavaScript</h3>
+      <p>Interactive features, DOM manipulation, and dynamic UI behavior.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Problem Solving</h3>
+      <p>Logical thinking and algorithmic strategies for real-world scenarios.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Responsive Design</h3>
+      <p>Mobile-first layouts that adapt seamlessly across devices.</p>
+    </div>
+    <div class="skill-card">
+      <h3>Git & GitHub</h3>
+      <p>Version control, collaboration, and clean commit history for projects.</p>
+    </div>
+  </div>
+</section>
+<!-- contact section -->
+ <section id="contact" class="contact-section">
+  <h2>Let’s Connect</h2>
+  <div class="contact-info">
+    <p><strong>Email:</strong> shivammaurya2903@gmail.com</p>
+    <p><strong>Location:</strong> Ghaziabad, Uttar Pradesh, India</p>
+    <p><strong>Availability:</strong> Open to collaboration and coding club projects</p>
+  </div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+<section id="thanks" class="thanks-section">
+  <h2>Thanks for Visiting! 🙏</h2>
+  <p>
+    I appreciate you taking the time to explore my portfolio. Whether you're here to collaborate, connect, or just browse — thank you! Let's keep building, learning, and growing together.
+  </p>
+  <p>If you liked what you saw, feel free to reach out or connect on social media!</p>
+</section>
+<!-- footer-section -->
   <footer class="site-footer">
     <p>&copy; 2025 Shivam Maurya . All rights reserved.</p>
   </footer>

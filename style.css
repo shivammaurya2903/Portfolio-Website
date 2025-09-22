@@ -101,7 +101,7 @@ body.dark-mode .learn-btn {
 
 
 .home-section {
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   width: 100%;
   padding: 0 60px;
   display: flex;
@@ -150,7 +150,7 @@ body.dark-mode .learn-btn {
   transform: scale(1.05);
 }
 
-/* Dark mode support */
+
 body.dark-mode .home-section {
   background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
 }
@@ -242,7 +242,7 @@ body.dark-mode .social-links a:hover {
    border-radius: 5000px; 
 }
 
-/* skills-section */
+
 
 .skills-section {
   padding: 100px 80px;
@@ -293,7 +293,7 @@ body.dark-mode .social-links a:hover {
   background: linear-gradient(135deg, #e0f7fa, #ffffff);
 }
 
-/* Dark mode support */
+
 body.dark-mode .skills-section {
   background-color: #121212;
 }
@@ -377,7 +377,7 @@ body.dark-mode .skill-card:hover {
   transform: scale(1.05);
 }
 
-/* Dark mode support */
+
 body.dark-mode .contact-section {
   background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
   color: #eee;
@@ -420,7 +420,7 @@ body.dark-mode .contact-form button {
   margin: 0 auto;
 }
 
-/* Dark mode support */
+
 body.dark-mode .thanks-section {
   background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
   color: #eee;
@@ -453,5 +453,3 @@ body {
 .site-footer {
   margin-top: auto;
 }
-
-

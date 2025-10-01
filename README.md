@@ -39,8 +39,8 @@ The site features a responsive layout, interactive animations, and a theme toggl
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
-cd portfolio-website
+   git clone https://github.com/shivammaurya2903/Portfolio-Website.git
+   cd portfolio-website
 
 portfolio-website/
 │
@@ -66,5 +66,5 @@ portfolio-website/
 
 ---
 
-Would you like me to also add **screenshots preview placeholders** (like "📸 Demo Screenshots") in the README so it looks more engaging when published on GitHub?
+
 
